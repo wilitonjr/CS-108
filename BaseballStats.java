@@ -2,20 +2,14 @@
  *  Exam 1
  *  May 30 2019
  *  Wiliton Rodrigues
-  */
-
-
-
-//package BaseballStats;
+*/
 
 import java.util.Random;
 
 public class BaseballStats {
 
 	public static void main(String[] args) {
-
-		
-		
+	
 		
 		// Declare and initialize arrays
 		String[] players = {"Babe Ruth", "Willie Mays", "Barry Bonds", "Ted Williams", "Hank Aaron"};
@@ -24,9 +18,8 @@ public class BaseballStats {
 		
 		//Display a roster of the five players
 		for (int i = 0; i < players.length; i++) { 
-            System.out.println(i+1 + " "+ players[i]);
-        }
-		
+            		System.out.println(i+1 + " "+ players[i]);
+        	}
 		System.out.println("");
 		
 		//get the random number
@@ -39,12 +32,7 @@ public class BaseballStats {
 		avg = h / b;
 		String strAvg = String.format("%.3f", avg);
 		
-
-		
 		//Display the name, at bats, hits, and batting average of a *random player in the list
 		System.out.println(players[randomNumber] + " AB: " + atBats[randomNumber] + " H: " + hits[randomNumber] + " Ave: " + strAvg);
-		
-
 	}
-
 }
