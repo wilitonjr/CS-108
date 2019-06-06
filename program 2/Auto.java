@@ -108,7 +108,7 @@ public class Auto {
 	
 	// Returns a string containing the programming assignment and your name
 	public static String progId() {
-	      return "Program 2, Patty Kraft";
+	      return "Program 2, Will Rodrigues";
 	}
 	
 }
