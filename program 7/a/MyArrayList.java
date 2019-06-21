@@ -107,7 +107,7 @@ public class MyArrayList<E> extends MyAbstractList<E> implements MyList<E> {
 	@Override
 	public int indexOf(E data) {
 		if (data != null){
-			for (int i = 0; i <= this.array.length - 1 ; i++){
+			for (int i = 0; i < size  ; i++){
 				if (data.equals(this.array[i])){
 					return i;
 				}
